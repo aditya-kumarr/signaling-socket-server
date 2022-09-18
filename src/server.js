@@ -78,4 +78,4 @@ io.on("connection", (socket) => {
   // this will be called onicecandidate of the one giving answer
 });
 const PORT = process.env.PORT || 1000;
-http.listen(3000, () => console.log(`listening on http://localhost:${PORT}`));
+http.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`));
